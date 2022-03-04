@@ -9,7 +9,6 @@ driver.get('https://www.amazon.com/')
 
 # go to register page
 driver.find_element_by_link_text('Start here.').click()
-# driver.find_element_by_id('nav-flyout-ya-newCust').click()
 
 # fill information
 driver.find_element_by_id('ap_customer_name').send_keys('Saphire')
