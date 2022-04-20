@@ -17,7 +17,7 @@ class SignupTest(unittest.TestCase):
 
         sign_in = SignIn(driver)
         sign_in.login()
-        sign_in.fill_email('+6287886177686')
+        sign_in.fill_email('+62')
         sign_in.next_step()
         # password not shown due to security
         sign_in.fill_password('****')
